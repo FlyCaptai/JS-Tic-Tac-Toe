@@ -82,7 +82,8 @@ function checkwin(){
         //diagonale Wins
         [0,4,8],
         [2,4,6],
-
+        // here be comment
+        
     ];
 
     return winConditions.some(pattern => //überprüfe ob mindestens eins davons zutrifft, durch .some festgelegt
